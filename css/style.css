@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap');
+
+
+body {
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   box-sizing: border-box;
+ }
+ .header_part {
+   width: 100%;
+   height: 800px;
+   background-image: url(../images/donation11.jpg);
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .header_part_title {
+   font-size: 60px;
+   color: #fff;
+ }
+ .span_title {
+   margin-left: 100px;
+ }
+ .header_part_description {
+   font-size: 24px;
+   line-height: 40px;
+   color: #fff;
+ }
+ .donate_button {
+   width: 320px;
+   height: 80px;
+   border: none;
+   border-radius: 50px;
+   background-image: linear-gradient(to right, lightsalmon, tomato);
+   color: #fff;
+   font-weight: bold;
+   font-size: 20px;
+   margin-left: 150px;
+   cursor: pointer;
+ }
+ .first_blog {
+   margin-top: 100px;
+   text-align: center;
+ }
+ .first_blog_title {
+   font-size: 50px;
+   font-weight: bold;
+   font-style: oblique;
+ }
+ .first_blog_description {
+   color: grey;
+   font-size: 24px;
+   line-height: 40px;
+ }
+ .donation_option {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+ }
+ #donation_option_span {
+   border: 3px solid lightcoral;
+   border-radius: 8px;
+   background-color: lightpink;
+   padding: 25px;
+   color: tomato;
+ }
+ .donation_input_field {
+   margin-top: 50px;
+   text-align: center;
+ }
+ #donation_input {
+   text-align: center;
+   width: 500px;
+   border: none;
+   border-bottom: 1px solid grey;
+   font-size: 30px;
+   font-style: italic;
+ }
+ #donation_button {
+   margin-top: 25px;
+   width: 320px;
+   height: 80px;
+   padding: 15px;
+   border: none;
+   border-radius: 70px;
+   background-image: linear-gradient(to right, lightsalmon, tomato);
+   color: #fff;
+   font-size: 20px;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ .second_blog {
+   margin-top: 80px;
+ }
+ .our_donation_blog {
+   text-align: center;
+ }
+ .second_blog_title {
+   font-size: 50px;
+   font-style: italic;
+ }
+ .donation_description {
+   font-size: 25px;
+   font-style: italic;
+   line-height: 45px;
+   color: grey;
+ }
+ .card_section {
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 70px;
+ }
+ .first_card {
+   width: 30%;
+   box-shadow: 10px 10px 30px gray;
+   text-align: center;
+   border-radius: 10px;
+   background-color: lightcyan;
+ }
+ .second_card {
+   width: 30%;
+   box-shadow: 10px 10px 30px gray;
+   text-align: center;
+   border-radius: 10px;
+   background-color: rgba(255, 182, 193, 0.342);
+ }
+ .third_card {
+   width: 30%;
+   box-shadow: 10px 10px 30px gray;
+   text-align: center;
+   border-radius: 10px;
+   background-color: beige;
+ }
+ #food_image {
+   margin-top: 20px;
+ }
+ #shelter_image {
+   margin-top: 20px;
+ }
+ #frame_image {
+   margin-top: 20px;
+ }
+ #food_title {
+   font-size: 30px;
+   font-style: italic;
+ }
+ #food_description {
+   color: grey;
+   font-size: 18px;
+   font-style: italic;
+   line-height: 40px;
+ }
+ #shelter_title {
+   font-size: 30px;
+   font-style: italic;
+ }
+ #shelter_description {
+   color: grey;
+   font-size: 18px;
+   font-style: italic;
+   line-height: 40px;
+ }
+ #education_title {
+   font-size: 30px;
+   font-style: italic;
+ }
+ #education_description {
+   color: grey;
+   font-size: 18px;
+   font-style: italic;
+   line-height: 40px;
+ }
+ 
+ .donate_part {
+   text-align: center;
+ }
+ 
+ .donate_part_heading {
+   font-size: 40px;
+   font-style: italic;
+ }
+ 
+ #text_field {
+   text-align: center;
+   width: 400px;
+   font-size: 20px;
+   font-style: italic;
+   border: none;
+   border-bottom: 1px solid grey;
+   margin-bottom: 10px;
+ }
+ 
+ #email_field {
+   text-align: center;
+   width: 400px;
+   font-size: 20px;
+   font-style: italic;
+   border: none;
+   border-bottom: 1px solid grey;
+   margin-bottom: 10px;
+ }
+ 
+ #password_field {
+   text-align: center;
+   width: 400px;
+   font-size: 20px;
+   font-style: italic;
+   border: none;
+   border-bottom: 1px solid grey;
+   margin-bottom: 10px;
+ }
+ 
+ #form_donation_button {
+   width: 320px;
+   height: 80px;
+   padding: 15px;
+   font-size: 20px;
+   font-weight: bold;
+   font-style: italic;
+   color: #fff;
+   border: none;
+   border-radius: 55px;
+   background-image: linear-gradient(to right, lightsalmon, tomato);
+   cursor: pointer;
+   margin-top: 20px;
+ }
+ 
+ .donate_heading {
+   font-style: italic;
+   font-size: 30px;
+ }
+ 
+ .bkash_field {
+   font-size: 25px;
+ }
+ 
+ .upay_field {
+   font-size: 25px;
+ }
+ 
+ .nagad_field {
+   font-size: 25px;
+ }
+ 
+ .update_part_section {
+   margin-top: 70px;
+   text-align: center;
+ }
+ .update_part_section_title {
+   font-size: 40px;
+   font-style: italic;
+ }
+ .update_part_section_description {
+   font-size: 20px;
+   line-height: 30px;
+   color: grey;
+ }
+ .email_input_field {
+   margin-top: 40px;
+   background-color: beige;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   width: 50%;
+   height: 200px;
+   border-radius: 10px;
+ }
+ #email_input_field {
+   width: 200px;
+   height: 30px;
+   border: none;
+   padding: 10px;
+   font-size: 20px;
+   font-style: italic;
+ }
+ #subscribe_button {
+   width: 150px;
+   height: 45px;
+   padding: 10px;
+   border: none;
+   background-color: tomato;
+   color: #fff;
+   font-size: 20px;
+   font-weight: bold;
+   cursor: pointer;
+ }
+
+ .based_blog {
+   line-height: 10px;
+ }
+ .based_header {
+   font-size: 30px;
+   font-style: italic;
+ }
+ 
+ .based_location {
+   color: grey;
+   line-height: 20px;
+ }
+ 
+ #last_part {
+   width: 100%;
+   height: 300px;
+   background: black;
+   color: rgba(255, 0, 0, 0.678);
+   text-align: center;
+ }
+ #footer_heading {
+   font-size: 50px;
+   font-style: oblique;
+ }
+ #footer_paragraph {
+   color: #fff;
+   font-size: 20px;
+ }
